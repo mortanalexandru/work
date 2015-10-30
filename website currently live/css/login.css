@@ -1,0 +1,86 @@
+.login {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  .login .login-main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+    background-color: #B8AFCA; }
+    .login .login-main .cancel {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: 5px;
+      top: 5px; }
+      .login .login-main .cancel span {
+        font-size: 20px;
+        color: white; }
+    .login .login-main .title {
+      font-size: 30px;
+      margin-bottom: 10px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      height: 50px;
+      line-height: 50px; }
+    .login .login-main form {
+      height: 80%; }
+      .login .login-main form input::-webkit-input-placeholder {
+        color: #EBE2E5; }
+      .login .login-main form .input-container {
+        background-color: #DBD7E4;
+        padding: 0px 15px; }
+        .login .login-main form .input-container input {
+          height: 60px;
+          border: none;
+          border-bottom: 1px solid white;
+          background-color: transparent !important;
+          width: 100%;
+          color: white;
+          font-size: 17px; }
+        .login .login-main form .input-container input:last-child {
+          border-bottom: none; }
+      .login .login-main form .login-btn-container {
+        text-align: center;
+        margin-top: 20px; }
+        .login .login-main form .login-btn-container button {
+          display: inline-block;
+          width: 80%;
+          text-align: center;
+          height: 50px;
+          line-height: 50px;
+          border-radius: 12px;
+          border: 1px solid white;
+          background-color: transparent;
+          font-size: 17px;
+          color: white; }
+          .login .login-main form .login-btn-container button:active {
+            outline: none;
+            -webkit-user-select: none; }
+      .login .login-main form .forget-password {
+        margin-top: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 17px;
+        color: white; }
+      .login .login-main form .three-login {
+        margin-top: 20px;
+        height: 30px; }
+        .login .login-main form .three-login .three-img-container {
+          display: inline-block;
+          width: 32%;
+          text-align: center;
+          line-height: 30px; }
+  .login footer.register {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 5px;
+    text-align: center; }
+    .login footer.register p {
+      font-size: 15px; }
+      .login footer.register p a {
+        color: white;
+        text-decoration: none; }

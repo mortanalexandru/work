@@ -1,0 +1,229 @@
+.full-screen .ux-box-layout {
+  font-size: 20px; }
+  @media (max-width: 768px) {
+    .full-screen .ux-box-layout .ux-box-item {
+      display: none; }
+      .full-screen .ux-box-layout .ux-box-item.ux-box-item-sel {
+        display: block; }
+      .full-screen .ux-box-layout .ux-box-item table {
+        display: none; } }
+  .full-screen .ux-box-layout .ux-box-item-preview {
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -ms-transition: opacity 2s; }
+
+.ux-box-layout {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  font-size: 32px; }
+  .ux-box-layout > div {
+    left: 0;
+    width: 100%;
+    position: absolute; }
+  .ux-box-layout .ux-box-layout-title {
+    height: 120px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 120px; }
+  .ux-box-layout .ux-box-layout-content {
+    top: 120px;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #fff; }
+  .ux-box-layout .ux-box-item {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    transition: all 800ms;
+    -webkit-transition: all 800ms;
+    -o-transition: all 800ms;
+    -moz-transition: all 800ms;
+    -ms-transition: all 800ms;
+    overflow: hidden;
+    padding: 10px;
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    -o-background-clip: content-box;
+    -moz-background-clip: content-box;
+    -ms-background-clip: content-box;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #eee; }
+    .ux-box-layout .ux-box-item:hover {
+      color: #fff;
+      background-color: #cad63f; }
+    .ux-box-layout .ux-box-item table {
+      width: 100%;
+      height: 100%; }
+      .ux-box-layout .ux-box-item table tr {
+        width: 100%; }
+      .ux-box-layout .ux-box-item table td {
+        width: 100%; }
+    .ux-box-layout .ux-box-item .ux-box-item-detail {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      overflow: hidden;
+      height: 0;
+      opacity: 0;
+      text-align: left;
+      word-spacing: 2px;
+      line-height: 1.8; }
+      .ux-box-layout .ux-box-item .ux-box-item-detail > header {
+        width: 100%;
+        padding: 10px 0 10px 20px;
+        position: relative;
+        text-align: center; }
+        .ux-box-layout .ux-box-item .ux-box-item-detail > header span {
+          padding-top: 10px; }
+        .ux-box-layout .ux-box-item .ux-box-item-detail > header .ux-box-closebtn {
+          position: absolute;
+          right: 30px;
+          top: 50%;
+          margin-top: -15px;
+          margin-right: -15px;
+          height: 30px;
+          width: 30px;
+          cursor: pointer;
+          background: url(../images/closex2.png) no-repeat;
+          background-size: 100% 100%; }
+      .ux-box-layout .ux-box-item .ux-box-item-detail > div {
+        position: absolute;
+        top: 192px;
+        bottom: 10px;
+        width: 100%;
+        overflow: auto; }
+        .ux-box-layout .ux-box-item .ux-box-item-detail > div ul {
+          list-style-type: none; }
+          .ux-box-layout .ux-box-item .ux-box-item-detail > div ul.native-apperance {
+            margin-left: 50px;
+            list-style-type: disc; }
+        .ux-box-layout .ux-box-item .ux-box-item-detail > div li {
+          padding: 20px 10px;
+          width: 100%; }
+        .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-h, .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-v {
+          width: 100%; }
+        @media screen and (orientation: portrait) {
+          .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-h {
+            display: none; }
+          .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-v {
+            display: block; } }
+        @media screen and (orientation: landscape) {
+          .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-v {
+            display: none; }
+          .ux-box-layout .ux-box-item .ux-box-item-detail > div .img-canvas-h {
+            display: block; } }
+    .ux-box-layout .ux-box-item.ux-box-item-sel {
+      background-clip: border-box;
+      color: #fff;
+      background-color: #cad63f; }
+  @media (max-width: 768px) {
+    .ux-box-layout .ux-box-item {
+      transition: top 800ms, opacity 800ms 1s;
+      -webkit-transition: top 800ms, opacity 800ms 1s;
+      -o-transition: top 800ms, opacity 800ms 1s;
+      -moz-transition: top 800ms, opacity 800ms 1s;
+      -ms-transition: top 800ms, opacity 800ms 1s; }
+      .ux-box-layout .ux-box-item:hover {
+        color: #000;
+        background-color: #fff; }
+      .ux-box-layout .ux-box-item:active {
+        color: #fff;
+        background-color: #cad63f; }
+      .ux-box-layout .ux-box-item.ux-box-item-sel {
+        background-color: #eee;
+        padding: 0;
+        opacity: 0.5; }
+        .ux-box-layout .ux-box-item.ux-box-item-sel:hover {
+          background-color: #fff; }
+        .ux-box-layout .ux-box-item.ux-box-item-sel table {
+          display: none; }
+        .ux-box-layout .ux-box-item.ux-box-item-sel .ux-box-item-detail {
+          color: #000;
+          background-color: #fff;
+          height: 100%;
+          opacity: 1; }
+          .ux-box-layout .ux-box-item.ux-box-item-sel .ux-box-item-detail > div {
+            top: 60px; }
+      .ux-box-layout .ux-box-item.ux-box-item-sel-show {
+        top: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        left: 0 !important;
+        opacity: 1; } }
+  .ux-box-layout .ux-box-item-preview {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    opacity: 0; }
+    .ux-box-layout .ux-box-item-preview > header {
+      position: relative;
+      height: 120px; }
+      .ux-box-layout .ux-box-item-preview > header .ux-box-closebtn {
+        position: absolute;
+        right: 37.5px;
+        top: 37.5px;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        background: url(../images/closex2.png) no-repeat;
+        background-size: 100% 100%; }
+      .ux-box-layout .ux-box-item-preview > header .ux-box-title {
+        position: absolute;
+        left: 0;
+        right: 120px;
+        height: 100%;
+        text-align: center;
+        padding-left: 20px;
+        line-height: 120px; }
+    .ux-box-layout .ux-box-item-preview > div.ux-box-content {
+      position: absolute;
+      top: 120px;
+      bottom: 0;
+      width: 66%;
+      left: 17%;
+      overflow: auto;
+      padding: 0 20px;
+      word-spacing: 2px;
+      line-height: 1.8; }
+      .ux-box-layout .ux-box-item-preview > div.ux-box-content ul {
+        list-style-type: none; }
+        .ux-box-layout .ux-box-item-preview > div.ux-box-content ul.native-apperance {
+          margin-left: 50px;
+          list-style-type: disc; }
+      .ux-box-layout .ux-box-item-preview > div.ux-box-content li {
+        width: 100%;
+        padding: 20px 10px; }
+      .ux-box-layout .ux-box-item-preview > div.ux-box-content .img-canvas-h {
+        width: 100%; }
+      @media screen and (orientation: portrait) {
+        .ux-box-layout .ux-box-item-preview > div.ux-box-content .img-canvas-h {
+          display: none; }
+        .ux-box-layout .ux-box-item-preview > div.ux-box-content .img-canvas-v {
+          display: block; } }
+      @media screen and (orientation: landscape) {
+        .ux-box-layout .ux-box-item-preview > div.ux-box-content .img-canvas-v {
+          display: none; }
+        .ux-box-layout .ux-box-item-preview > div.ux-box-content .img-canvas-h {
+          display: block; } }
+  @media (max-width: 768px) {
+    .ux-box-layout .ux-box-item-preview {
+      display: none; } }
+
+@media (max-width: 768px) {
+  .ux-box-layout {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=card-layout.css.map */

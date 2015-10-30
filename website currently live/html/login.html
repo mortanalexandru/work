@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Virtual Space</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+
+    <link href="http://apps.bdimg.com/libs/bootstrap-glyphicons/1.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="../../common/css/common.css" rel="stylesheet">
+    <link href="../../common/css/virtual-space.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+
+    <link href="../css/login.css" rel="stylesheet">
+</head>
+
+<body class="login">
+    <section class="login-main">
+        <div class="cancel" onclick="window.history.back();"><span class="glyphicon glyphicon-remove"></span></div>
+        <div class="title">点滴</div>
+        <form novalidate>
+            <div class="input-container">
+                <input type="number" id="usertelephone" spellcheck="false" autocapitalize="off" autocomplete="on" autocorrect="off" placeholder="手机号" />
+                <input type="password" id="password" spellcheck="false" autocapitalize="off" autocomplete="on" autocorrect="off" placeholder="密码" />
+            </div>
+            <div class="login-btn-container">
+        	    <button class="login-btn fastclick" type="button" onclick="login.telephone.loginClick();">登录</button>
+            </div>
+            <div class="forget-password">忘记密码？</div>
+            <div class="three-login">
+                <div class="three-img-container"><img src="../images/threelogin.png" width="34" height="34"></div>
+                <div class="three-img-container"><img src="../images/threelogin.png" width="34" height="34"></div>
+                <div class="three-img-container"><img src="../images/threelogin.png" width="34" height="34"></div>
+            </div>
+        </form>
+    </section>
+    <footer class="register">
+    	<p><a href="../../register/html/register.html" target="_top">创建点滴账号</a></p>
+    </footer>
+    <script src="../../../bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="../../../bower_components/zepto/zepto.min.js"></script>
+    <script src="../../common/lib/md5/zepto.md5.js"></script>
+    <script src="../../common/js/CacheService.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

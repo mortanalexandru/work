@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1200px){
+    body .our-work{
+        position:relative;
+        width:100%;
+        height:100%;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        display:none;
+        scrollBar-face-color:green;
+    }
+    body .our-work ul{
+        list-style-type: none;
+    }
+    body .our-work .row{
+        height:100%;
+        overflow:auto;
+    }
+    body .our-work .row > ul{
+        height:100%;
+        width:3300px;
+        padding:15px;
+        margin:0;
+    }
+    body .our-work .row > ul > li{
+        position:relative;
+        display:inline-block;
+        height:100%;
+        width:800px;
+        padding:0 45px;
+    }
+}

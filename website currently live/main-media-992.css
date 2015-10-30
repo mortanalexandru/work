@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    body .our-work{
+        position:relative;
+        width:100%;
+        overflow-x:hidden;
+        overflow-y:hidden;
+        display:none;
+    }
+    body .our-work .row > ul{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    body .our-work .row > ul > li{
+        height:800px;
+        padding:0;
+    }
+    body .our-work .row > ul > li .item-img-container{
+        height:650px;
+    }
+    body .our-work .row > ul > li .item-description{
+        height:150px;
+    }
+    body .our-work .row > ul > li .item-description section{
+        height:50%;
+        font-size: 20px;
+    }
+    body .our-work .row > ul > li .item-description h3 {
+        height: 60px;
+        line-height: 60px;
+    }
+}
