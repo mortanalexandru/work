@@ -1,7 +1,35 @@
+.invisibleHeader{
+	position: fixed;
+	top: 0;
+	height: 120px;
+	width: 100%;
+	z-index: 3;
+}
+.invisibleHeader.hide{
+	display: none;
+}
+.touch-nav{
+	height: 120px;
+	cursor: pointer; 
+}
+.touch-nav img{
+	margin-right: 50px;
+}
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a{
+    border: 1px solid rgba(0,0,0,0.2);
+    background: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a.active, .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a:hover {
+	background: #fff;
+}
+div.bx-controls.bx-has-pager > div.bx-pager{
+	position: absolute;
+    bottom: 3px;
+}
 section.container.front-container{
 	background-image: url('images/frontbgimg.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
  }
 * {
 	margin: 0;

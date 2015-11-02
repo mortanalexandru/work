@@ -1,26 +1,14 @@
-;(function($){
+(function($){
     $(document).ready(function(){
         initTouchFade();
         initScroll();
         initTabHander();
         initNavHander();
-        //initFrontBgImage();
-        //$(window).resize(initFrontBgImage);
     });
     $(window).load(function(){
         initMapAddress();
     });
-    function initFrontBgImage(){
-        var ratio = 1.8529;
-        var allHeight = $(window).height();
-        var imgWidth = allHeight * ratio;
-        if(imgWidth >= $(window).width()){
-            $(".front-container .front-row > img").attr("width",imgWidth);
-        }
-        else{
-            $(".front-container .front-row > img").attr("width","100%");
-        }
-    }
+
     function initMapAddress(){
         var mapUrl = "https://a.tiles.mapbox.com/v4/pansypanda.ni3da9n0/attribution,zoompan,zoomwheel.html?access_token=pk.eyJ1IjoicGFuc3lwYW5kYSIsImEiOiJEbDNiVnpVIn0.ucVVOgCsE1d8RRo_OJi8Rw#16/51.5280/-0.0373";
         $("#addressFrame").attr("src",mapUrl);
@@ -196,8 +184,8 @@
                     imgContainer.parent().height(imgContainerHeight+150);
                 }
             }
-            initItemImage();
-            $(window).resize(initItemImage);
+            //initItemImage();
+           // $(window).resize(initItemImage);
             frontTabHander();
             setTimeout(function(){
                 $(".nav-container").slideUp(500);
@@ -209,4 +197,4 @@
         $(".tab2").on("click",navTabHander);
         $(".tab4").on("click",navTabHander);
     }
-})(window.jQuery);
+})(jQuery);
