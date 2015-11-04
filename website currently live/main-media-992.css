@@ -1,4 +1,19 @@
 @media only screen and (min-width: 768px) and (max-width: 991px){
+	body .our-work .row>ul>li .item-description section {
+		height: 30px;
+		width: 100%;
+	}
+   .ux-box-layout .ux-box-item.ux-box-item-sel .ux-box-item-detail > div{
+		top: 140px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > header{
+		padding-top: 65px;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > header span{
+		line-height: 1.2;
+	}
     body .our-work{
         position:relative;
         width:100%;
@@ -13,16 +28,16 @@
     }
     body .our-work .row > ul > li{
         height:800px;
+        width: 100%;
         padding:0;
     }
     body .our-work .row > ul > li .item-img-container{
         height:650px;
     }
     body .our-work .row > ul > li .item-description{
-        height:150px;
+        height:190px;
     }
     body .our-work .row > ul > li .item-description section{
-        height:50%;
         font-size: 20px;
     }
     body .our-work .row > ul > li .item-description h3 {

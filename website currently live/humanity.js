@@ -66,7 +66,7 @@ var MainPage = (function () {
         var tempHeight = windowElement.height();
         windowElement.animate({
             scrollTop:tempHeight
-        },1000);	
+        },1000);
 	};
 
 	/**
@@ -115,8 +115,13 @@ var MainPage = (function () {
             var tempTop = windowElement.scrollTop();
             if(tempTop-windowElement.height() >= 0)
             {
-            	$(".nav-container").slideDown(500);
-                $(".invisibleHeader").removeClass("hide");
+            	if($(".invisibleHeader").hasClass("hide")){
+            		$(".nav-container").slideDown(500);
+                	$(".invisibleHeader").removeClass("hide");
+                    if(!$(".nav-container").is(":hover")){
+                    	$(".nav-container").trigger("mouseleave.navigation");
+                    }
+            	}
             }else{
                 $(".invisibleHeader").addClass("hide");
                 $(".nav-container").slideUp(500);

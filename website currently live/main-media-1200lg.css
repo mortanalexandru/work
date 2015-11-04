@@ -1,31 +1,41 @@
-@media only screen and (min-width: 1200px){
-    body .our-work{
-        position:relative;
-        width:100%;
-        height:100%;
-        overflow-y:hidden;
-        overflow-x:hidden;
-        display:none;
-        scrollBar-face-color:green;
-    }
-    body .our-work ul{
-        list-style-type: none;
-    }
-    body .our-work .row{
-        height:100%;
-        overflow:auto;
-    }
-    body .our-work .row > ul{
-        height:100%;
-        width:3300px;
-        padding:15px;
-        margin:0;
-    }
-    body .our-work .row > ul > li{
-        position:relative;
-        display:inline-block;
-        height:100%;
-        width:800px;
-        padding:0 45px;
-    }
+@media only screen and (min-width: 1200px) {
+	.container.our-work>div>ul>li.item {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.container.our-work > div > ul > li.item > div.item-description p{
+		font-size: 24px;
+	}
+	.container.our-work > div > ul > li.item> div.item-description > h3{
+		font-size: 36px;
+	}
+	body .our-work {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		display: none;
+		scrollBar-face-color: green;
+	}
+	body .our-work ul {
+		list-style-type: none;
+	}
+	body .our-work .row {
+		height: 100%;
+		overflow: auto;
+	}
+	body .our-work .row>ul {
+		height: 100%;
+		width: 3300px;
+		padding: 15px;
+		margin: 0;
+	}
+	body .our-work .row>ul>li {
+		position: relative;
+		display: inline-block;
+		height: 100%;
+		width: 800px;
+		padding: 0 45px;
+	}
 }

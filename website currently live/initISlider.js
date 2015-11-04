@@ -44,7 +44,7 @@ CustomizedISlider = (function() {
 			var imgContainerWidth = imgContainer.width();
 			var imgContainerHeight = imgContainerWidth / itemImageRatio;
 			imgContainer.height(imgContainerHeight);
-			imgContainer.parent().height(imgContainerHeight + 150);
+			imgContainer.parent().height(imgContainerHeight + 190);
 		}
 	};
 

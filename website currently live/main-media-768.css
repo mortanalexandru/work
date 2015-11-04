@@ -1,137 +1,170 @@
-@media screen and (max-width: 767px){
-    body > div  .front-container > .front-row .descript-info{
-        height:350px;
-        margin-top:-120px;
-    }
-    body > div  .front-container > .front-row .descript-info .logo{
-        background: url(images/logoportrait.png) no-repeat;
-        background-size: 100% 100%;
-        height:120px;
-        width:150px;
-    }
-    body > div  .front-container > .front-row .descript-info .logo .logo-portrait{
-        display:inherit;
-    }
-    body > div  .front-container > .front-row .descript-info .logo .normal{
-        display:none;
-    }
-    body > div  .front-container > .front-row .descript-info h3{
-        width:250px;
-        margin:0 auto;
-    }
-    body > div  .front-container > .front-row .touch{
-        right:5px;
-    }
-    body > div  .front-container > .front-row .front-bottom{
-        bottom:0;
-        background-color:#CAD63F;
-        font-size: 15px;
-    }
-    body > div  .touch-info > .row > div{
-        height:50%;
-    }
-    body > div > .touch-info > .row .touch-back{
-        top: 20px;
-        right: 20px;
-        width: 30px;
-        height: 30px;
-    }
-    body > div  .touch-info  > .row .detail-info .detail-info-container{
-        width:100%;
-        height:100%;
-        left:0;
-        top:0;
-        margin-top:0;
-        padding:0 15px;
-    }
-    body > div  .touch-info .detail-info-container .contact-info{
-        left:0;
-    }
-    body > div > .touch-info .detail-info-container .contact-info .person-img{
-        display:inherit;
-    }
-    body > div  .touch-info  > .row .detail-info .detail-info-container .person-photo-container{
-        width:80px;
-        height:100%;
-        padding-top:25%;
-        line-height: 0;
-        text-align: center;
-        display:none;
-    }
-    body > div  .touch-info .detail-info-container .contact-info h4{
-        margin: 30px 0;
-        font-size:25px;
-        text-align:center;
-    }
-    body > div  .touch-info .detail-info-container .contact-info ul {
-        margin: 10px 0;
-    }
-    body > div  .touch-info .detail-info-container .contact-info > p {
-        margin: 0;
-    }
-    body > div  .front-container > .front-row .front-bottom .tab1{
-        text-align:center;
-        background-color:white;
-        color:#CAD63F;
-    }
-    body > div  .front-container > .front-row .front-bottom .tab1-normal{
-        background-color:#CAD63F;
-        color:white;
-    }
-    body > div  .front-container > .front-row .front-bottom .tab2{
-        text-align:center;
-        background-color:#CAD63F;
-        color:white;
-    }
-    body > div  .front-container > .front-row .front-bottom .tab2-active{
-        background-color:white;
-        color:#CAD63F;
-    }
-    body > div  .nav-container{
-        font-size: 15px;
-    }
-    body > div  .nav-container .tab3{
-        text-align:right;
-    }
-    body > div  .nav-container .tab4{
-        text-align:left;
-    }
-    body .our-work{
-        position:relative;
-        width:100%;
-        overflow-x:hidden;
-        overflow-y:auto;
-        display:none;
-    }
-    body .our-work .row > ul{
-        width:100%;
-        padding:0;
-        margin:0;
-    }
-    body .our-work .row > ul > li{
-        position:relative;
-        display:inline-block;
-        width:100%;
-        height:400px;
-        padding:0;
-    }
-    body .our-work .row > ul > li .item-img-container{
-        height:250px;
-    }
-    body .our-work .row > ul > li .item-description{
-        height:150px;
-    }
-    body .our-work .row > ul > li .item-description section{
-        height: 30px;
-        width: 100%;
-        font-size: 16px;
-    }
-    body .our-work .row > ul > li .item-description h3 {
-        height: 30px;
-        line-height: 30px;
-    }
-    body .footer .footer-top div{
-        height:32%;
-        line-height: 55px;
-    }
+@media screen and (max-width: 767px) {
+	.ux-box-layout .ux-box-item.ux-box-item-sel .ux-box-item-detail > div{
+		top: 140px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > header{
+		padding-top: 65px;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > header span{
+		line-height: 1.2;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > header .ux-box-closebtn{
+		top: 30%;
+	}
+	#getInTouchLogo {
+		width: 24px;
+		height: 24px;
+	}
+	.full-screen .ux-box-item .ux-box-item-detail{
+		padding-left: 32px;
+    	padding-right: 32px;
+	}
+	.ux-box-layout .ux-box-item .ux-box-item-detail > div{
+		width: initial;
+		padding-right: 32px;
+	}
+	.ux-box-layout {
+		font-size: 32px;
+	}
+	body>div  .front-container>.front-row .descript-info {
+		height: 350px;
+		margin-top: -120px;
+	}
+	body>div  .front-container>.front-row .descript-info .logo {
+		background: url(images/logoportrait.png) no-repeat;
+		background-size: 100% 100%;
+		height: 120px;
+		width: 150px;
+	}
+	body>div  .front-container>.front-row .descript-info .logo .logo-portrait
+		{
+		display: inherit;
+	}
+	body>div  .front-container>.front-row .descript-info .logo .normal {
+		display: none;
+	}
+	body>div  .front-container>.front-row .descript-info h3 {
+		width: 250px;
+		margin: 0 auto;
+	}
+	body>div  .front-container>.front-row .touch {
+		top: 20px;
+		right: 20px;
+		font-size: 12px;
+	}
+	body>div  .front-container>.front-row .front-bottom {
+		bottom: 0;
+		background-color: #CAD63F;
+		font-size: 20px;
+	}
+	body>div  .touch-info>.row>div {
+		height: 50%;
+	}
+	body>div>.touch-info>.row .touch-back {
+		top: 20px;
+		right: 20px;
+		width: 30px;
+		height: 30px;
+	}
+	body>div  .touch-info>.row .detail-info .detail-info-container {
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		margin-top: 0;
+		padding: 0 15px;
+	}
+	body>div  .touch-info .detail-info-container .contact-info {
+		left: 0;
+	}
+	body>div>.touch-info .detail-info-container .contact-info .person-img {
+		display: inherit;
+	}
+	body>div  .touch-info>.row .detail-info .detail-info-container .person-photo-container
+		{
+		width: 80px;
+		height: 100%;
+		padding-top: 25%;
+		line-height: 0;
+		text-align: center;
+		display: none;
+	}
+	body>div  .touch-info .detail-info-container .contact-info h4 {
+		margin: 30px 0;
+		font-size: 25px;
+		text-align: center;
+	}
+	body>div  .touch-info .detail-info-container .contact-info ul {
+		margin: 10px 0;
+	}
+	body>div  .touch-info .detail-info-container .contact-info>p {
+		margin: 0;
+	}
+	body>div  .front-container>.front-row .front-bottom .tab1 {
+		text-align: center;
+		background-color: white;
+		color: #CAD63F;
+	}
+	body>div  .front-container>.front-row .front-bottom .tab1-normal {
+		background-color: #CAD63F;
+		color: white;
+	}
+	body>div  .front-container>.front-row .front-bottom .tab2 {
+		text-align: center;
+		background-color: #CAD63F;
+		color: white;
+	}
+	body>div  .front-container>.front-row .front-bottom .tab2-active {
+		background-color: white;
+		color: #CAD63F;
+	}
+	body>div  .nav-container {
+		font-size: 15px;
+	}
+	body>div  .nav-container .tab3 {
+		text-align: right;
+	}
+	body>div  .nav-container .tab4 {
+		text-align: left;
+	}
+	body .our-work {
+		position: relative;
+		width: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		display: none;
+	}
+	body .our-work .row>ul {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	body .our-work .row>ul>li {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 400px;
+		padding: 0;
+	}
+	body .our-work .row>ul>li .item-img-container {
+		height: 250px;
+	}
+	body .our-work .row>ul>li .item-description {
+		height: 190px;
+	}
+	body .our-work .row>ul>li .item-description section {
+		height: 30px;
+		width: 100%;
+		font-size: 16px;
+	}
+	body .our-work .row>ul>li .item-description h3 {
+		height: 30px;
+		line-height: 30px;
+	}
+	body .footer .footer-top div {
+		height: 32%;
+		line-height: 55px;
+	}
 }

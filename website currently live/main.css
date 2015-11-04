@@ -15,8 +15,8 @@
      position:absolute;
      width:120px;
      height:100px;
-     right:30px;
-     top:100px;
+     right:40px;
+     top:40px;
      cursor:pointer;
      color:white;
      font-size: 20px;
@@ -142,8 +142,8 @@
      position:absolute;
      width:45px;
      height:45px;
-     right:65px;
-     top:110px;
+     right:40px;
+     top:40px;
      background: url(images/closewhite.png) no-repeat;
      background-size: 100% 100%;
      cursor:pointer;
@@ -246,20 +246,21 @@
      border:1px solid rgba(0,0,0,0.2) !important;
  }
  body .our-work .row > ul > li .item-description{
-     height:30%;
+     height:40%;
      padding-left: 30px;
      padding-right:30px;
      overflow:hidden;
      background-color: white;
  }
  body .our-work .row > ul > li .item-description h3{
-     height: 60px;
+     height: 75px;
      line-height: 60px;
      margin:10px 0;
      border-bottom: 1px solid rgba(0,0,0,0.2);
      text-transform: uppercase;
  }
  body .our-work .row > ul > li .item-description section{
+     padding-top: 20px;
      width:50%;
      height:70%;
      float:left;

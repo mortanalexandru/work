@@ -1,3 +1,13 @@
+section.container.grid-container.my-box-containter.full-screen > div > div.ux-box-layout-content > div.ux-box-item.ux-box-item-sel.ux-box-item-sel-show > div > header > span{
+	font-size: 32px;
+}
+.full-screen .ux-box-layout .ux-box-title{
+	font-size: 32px;
+}
+#getInTouchLogo{
+	width: 60px;
+	height: 60px;
+}
 .invisibleHeader{
 	position: fixed;
 	top: 0;
@@ -16,11 +26,12 @@
 	margin-right: 50px;
 }
 .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a{
-    border: 1px solid rgba(0,0,0,0.2);
-    background: none;
+    background-color: #fff;
+    opacity: 0.3;
 }
 .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a.active, .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a:hover {
 	background: #fff;
+	opacity: 1;
 }
 div.bx-controls.bx-has-pager > div.bx-pager{
 	position: absolute;
